@@ -24,7 +24,7 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-    BRANDS << brand unless? brand
+    unless? BRANDS << brand
     
  end
   
